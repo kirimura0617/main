@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: cadetblue;
+}
+header p {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 3% ;
+}
+ul {
+    width: 90%;
+    margin: 0 auto;
+    padding-inline-start: 0%;
+}
+li {
+    list-style: none;
+}
+a {
+    display: block;
+    border: 3px cadetblue solid;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 5%;
+    text-decoration: none;
+    text-align: center;
+    color: cadetblue;
+}
+a:hover {
+    background-color: cadetblue;
+    color: white;
+}
+/* PC用 */
+@media (min-width: 768px) {
+    header p {
+        padding: 1%;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    li {
+        width: 45%;
+    }
+    a {
+        margin: 5%;
+    }
+}
